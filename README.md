@@ -4,7 +4,7 @@
 
 This is My first GitHub project!
 
-> use java to print 'Hello World!'
+> use `java` to print 'Hello World!'
 
 ``` java
 public static void main(String[] args){
