@@ -1,0 +1,53 @@
+<html>
+<head>
+  <script id="jquery_183" type="text/javascript" class="library" src="/js/sandbox/jquery/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<div>
+	<div class="outer-container">
+			 <div class="inner-container">
+					<div class="content">
+						<div>1</div>
+						<div>1</div>
+						<div>1</div>
+						<div>1</div>
+						<div>1</div>
+						<div>1</div>
+						<div>1</div>
+						<div>1</div>
+						<div>1</div>
+						<div>1</div>
+						<div>1</div>
+					</div>
+			 </div>
+	 </div>
+</div>
+<script>
+try{
+$(function(){
+
+});
+}catch(e){
+}
+</script>
+<style>
+.outer-container,.content {
+    width: 200px; height: 200px;
+}
+.outer-container {
+    position: relative;
+    overflow: hidden;
+}
+.inner-container {
+    position: absolute; left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+ 
+ /* for Chrome */
+.inner-container::-webkit-scrollbar {
+    display: none;
+}
+</style>
+</body>
+</html>
